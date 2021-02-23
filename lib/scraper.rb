@@ -24,7 +24,7 @@ def make_course
 end
 
   def print_courses
-      self.make_courses
+      self.make_course
       Course.all.each do |course|
         if course.title && course.title != ""
           puts "Title: #{course.title}"
